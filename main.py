@@ -1,3 +1,4 @@
+#Autor: Anderson Liege
 #Bibliotecas
 import json
 import serial
@@ -24,7 +25,7 @@ formato_CRC = crc_16("HEX")
 
 #Funções
 def sendVel(vel, crc16_alta, crc16_baixa):
-    ser_Rasp.write(serial.to_bytes([CABECALHO,COMANDO,ID_FAIXA,vel,crc16_alta, crc16_baixa,RODAPE]))
+    ser_Rasp.write(serial.to_bytes([CABECALHO,COMANDO,ID_FAIXA,vel,crc16_alta, crc16_baixa,RODAPE])) 
 
 while True:
     time.sleep(0.01)
