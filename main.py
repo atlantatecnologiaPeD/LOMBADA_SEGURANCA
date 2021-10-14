@@ -1,4 +1,5 @@
 #Autor: Anderson Liege
+#Data:14/10/2021
 #Bibliotecas
 import json
 import serial
