@@ -36,7 +36,7 @@ while True:
     try:
         ser_Sensor = serial.Serial('/dev/ttyACM0', 115200, timeout=0)
     except serial.SerialException as e:
-        print('sensor desconectado')
+        print('Sensor desconectado')
         time.sleep(1)
         ser_Sensor.close()    
 
