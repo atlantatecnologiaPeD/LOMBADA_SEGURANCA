@@ -1,5 +1,7 @@
 #Autor: Anderson Liege
 #Data:14/10/2021
+#Projeto Lombada Educativa
+
 #Bibliotecas
 import json
 import serial
